@@ -1,0 +1,19 @@
+@use "sass:map";
+@import "../../styles/variables.scss";
+
+.banner-title {
+    line-height: 1.5;
+    font-size: 1.5rem !important;
+}
+
+@media (min-width: map.get($breakpoints,"md")) {
+    .banner-title {
+        font-size: 2rem !important;
+    }
+}
+
+@media (min-width: map.get($breakpoints,"xl")) {
+    .banner-title {
+        font-size: 2.5rem !important;
+    }
+}

@@ -1,0 +1,40 @@
+@import "./styles/colors.scss";
+@import "./styles/grid.scss";
+@import "./styles/flex.scss";
+@import "./styles/utilities.scss";
+@import "./styles/gutters.scss";
+@import "./styles/elements.scss";
+
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+$font-family: Poppins, sans-serif;
+
+* {
+  font-family: $font-family;
+}
+
+body {
+  @include surface();
+  margin: 0;
+  font-size: 16px;
+  line-height: 150%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.material-icons.md-16 {
+  font-size: 16px;
+}
+
+.website-mock {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}

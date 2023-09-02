@@ -1,0 +1,98 @@
+@import './../../styles/colors.scss';
+@import './../../styles/variables.scss';
+
+.kc-btn {
+    cursor: pointer;
+    border-radius: calc(1rem / 16 * 20);
+    border: none;
+    padding: 0;
+}
+
+.kc-btn > .kc-btn-content {
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: $typeface-weight-medium;
+    line-height: 150%;
+    text-align: center;
+    padding-top: calc(1rem / 16 * 12);
+    padding-bottom: calc(1rem / 16 * 12);
+    border-radius: calc(1rem / 16 * 20);
+}
+
+/* Button padding & icon */
+
+.kc-btn .kc-btn-content:has(.kc-btn-text) {
+    padding-left: calc(1rem / 16 * 24);
+    padding-right: calc(1rem / 16 * 24);
+}
+
+.kc-btn .kc-btn-content:has(.material-icons) {
+    padding-left: calc(1rem / 16 * 12);
+    padding-right: calc(1rem / 16 * 12);
+}
+
+.kc-btn .kc-btn-content:has(.material-icons):has(.kc-btn-text) {
+    padding-left: calc(1rem);
+    padding-right: calc(1rem / 16 * 24);
+}
+
+.kc-btn .kc-btn-content:has(.material-icons):has(.kc-btn-text) .material-icons {
+    padding-right: calc(1rem / 16 * 8);
+}
+
+.kc-btn > .kc-btn-content > .material-icons {
+    font-size: calc(1rem / 16 * 18);
+}
+
+/* Button states */
+
+.kc-btn.kc-primary > .kc-btn-content:hover,
+.kc-btn.kc-outline-primary > .kc-btn-content:hover {
+  @include on-primary-hover-state();
+}
+
+.kc-btn.kc-primary > .kc-btn-content:focus,
+.kc-btn.kc-outline-primary > .kc-btn-content:focus {
+  @include on-primary-focus-state();
+}
+
+.kc-btn.kc-secondary > .kc-btn-content:hover,
+.kc-btn.kc-outline-secondary > .kc-btn-content:hover {
+  @include on-secondary-hover-state();
+}
+
+.kc-btn.kc-secondary > .kc-btn-content:focus,
+.kc-btn.kc-outline-secondary > .kc-btn-content:focus {
+  @include on-secondary-focus-state();
+}
+
+.kc-btn.kc-tertiary > .kc-btn-content:hover,
+.kc-btn.kc-outline-tertiary > .kc-btn-content:hover {
+  @include on-tertiary-hover-state();
+}
+
+.kc-btn.kc-tertiary > .kc-btn-content:focus,
+.kc-btn.kc-outline-tertiary > .kc-btn-content:focus {
+  @include on-tertiary-focus-state();
+}
+
+.kc-btn.kc-elevated-primary > .kc-btn-content,
+.kc-btn.kc-elevated-secondary > .kc-btn-content,
+.kc-btn.kc-elevated-tertiary > .kc-btn-content {
+  background-color: $surface-1;
+}
+
+.kc-btn.kc-elevated-primary > .kc-btn-content:hover,
+.kc-btn.kc-elevated-secondary > .kc-btn-content:hover,
+.kc-btn.kc-elevated-tertiary > .kc-btn-content:hover {
+  background-color: $surface-2;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, $shadow-key-penumbra-opacity),
+    0 3px 3px -2px rgba(0, 0, 0, $shadow-key-umbra-opacity),
+    0 1px 8px 0 rgba(0, 0, 0, $shadow-ambient-shadow-opacity);
+}
+
+.kc-btn.kc-elevated-primary > .kc-btn-content:focus,
+.kc-btn.kc-elevated-secondary > .kc-btn-content:focus,
+.kc-btn.kc-elevated-tertiary > .kc-btn-content:focus {
+  background-color: $surface-3;
+}

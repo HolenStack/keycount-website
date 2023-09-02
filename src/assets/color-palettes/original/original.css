@@ -1,0 +1,8 @@
+html {
+    --amber-sae-ece: #fc7c00ff; /* primary key color */
+    --french-pink: #ff679aff; /* secondary key color */
+    --maximum-blue-green: #03bfc0ff; /* tertiary key color */
+    --white: #ffffffff;
+    --black: #000000ff;
+    --light-gray: #cacacaff;
+}

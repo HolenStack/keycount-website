@@ -1,0 +1,65 @@
+<svg width="151" height="88" viewBox="0 0 151 88" preserveAspectRatio="xMinYMin meet"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden">
+    <defs>
+        <clipPath id="clip0">
+            <rect x="0" y="0" width="151" height="88"/>
+        </clipPath>
+        <clipPath id="clip1">
+            <rect x="44" y="0" width="51" height="41"/>
+        </clipPath>
+        <clipPath id="clip2">
+            <rect x="44" y="0" width="51" height="41"/>
+        </clipPath>
+        <clipPath id="clip3">
+            <rect x="44" y="0" width="51" height="41"/>
+        </clipPath>
+        <clipPath id="clip4">
+            <rect x="44" y="0" width="51" height="41"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#clip0)">
+        <text fill="#FC7C00" font-family="Poppins,Poppins_MSFontService,sans-serif" font-weight="400" font-size="330" transform="matrix(0.0789749 0 0 0.0792793 15.6744 65)">keycount</text>
+        <g clip-path="url(#clip1)">
+            <g clip-path="url(#clip2)">
+                <g clip-path="url(#clip3)">
+                    <g clip-path="url(#clip4)">
+                        <path d="M70.3165 24.4198 70.3165 28.438" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M68.2522 24.288 68.2522 27.0273" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M53.3211 40.4507 50.5084 40.4507" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M53.3272 38.3425 49.3226 38.3425" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M0 0 1.58505e-05 39.4288" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 -1 73.7231 40.0436)"/>
+                        <path d="M33.9944 23.8927 73.0343 24.1072" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M48.9712 20.0277 68.3041 39.1394" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M0 0 1.95867 1.87429" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(-1.00612 0 0 1 85.4153 33.2038)"/>
+                        <path d="M0 0 2.66912 2.91255" stroke="#FC7C00" stroke-width="1.20786" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(-1.00251 -0.0840487 -0.0845632 0.996419 84.1651 31.5073)"/>
+                        <path d="M65.4888 11.435 67.5034 13.3981" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M0 0 2.66904 2.91246" stroke="#FC7C00" stroke-width="1.20783" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(-0.0433073 0.999062 1.00517 0.0430438 84.4708 9.7508)"/>
+                        <path d="M53.3633 6.85158 56.176 6.85158" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M0 0 2.67627 2.92035" stroke="#FC7C00" stroke-width="1.2111" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(0.668713 0.743521 0.748071 -0.664645 73.8881 5.72174)"/>
+                        <path d="M0 0 18.402 19.0453" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 -1 69.2594 25.1942)"/>
+                        <path d="M47.1924 24.0464C47.1924 20.893 49.9256 18.3367 53.2974 18.3367 56.6691 18.3367 59.4023 20.893 59.4023 24.0464 59.4023 27.1998 56.6691 29.7561 53.2974 29.7561 49.9256 29.7561 47.1924 27.1998 47.1924 24.0464Z" stroke="#FC7C00" stroke-width="1.00651" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M47.0826 24.0245C47.0826 20.5558 49.8847 17.7438 53.3413 17.7438 56.7978 17.7438 59.5999 20.5558 59.5999 24.0245 59.5999 27.4931 56.7978 30.3051 53.3413 30.3051 49.8847 30.3051 47.0826 27.4931 47.0826 24.0245Z" stroke="#FC7C00" stroke-width="1.40911" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M70.3165 24.4198 70.3165 28.438" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M68.2522 24.288 68.2522 27.0273" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M53.3211 40.4507 50.5084 40.4507" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M53.3272 38.3425 49.3226 38.3425" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M0 0 6.34021e-05 39.4288" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 -1 73.7231 40.0436)"/>
+                        <path d="M33.9944 23.8927 73.0343 24.1072" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M48.9712 20.0277 68.3041 39.1394" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M25.2761 23.9586C25.2761 19.8592 28.5994 16.536 32.6987 16.536 36.798 16.536 40.1213 19.8592 40.1213 23.9586 40.1213 28.0579 36.798 31.3811 32.6987 31.3811 28.5994 31.3811 25.2761 28.0579 25.2761 23.9586Z" stroke="#FC7C00" stroke-width="1.35878" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M0 0 1.95865 1.87429" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(-1.00612 0 0 1 85.4153 33.2038)"/>
+                        <path d="M0 0 2.66914 2.91253" stroke="#FC7C00" stroke-width="1.20786" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(-1.00251 -0.0840487 -0.0845632 0.996419 84.1659 31.5073)"/>
+                        <path d="M65.4888 11.435 67.5034 13.3981" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M0 0 2.66904 2.91242" stroke="#FC7C00" stroke-width="1.20783" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(-0.0433073 0.999062 1.00517 0.0430438 84.4708 9.7508)"/>
+                        <path d="M53.3633 6.85158 56.176 6.85158" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M0 0 2.67631 2.92035" stroke="#FC7C00" stroke-width="1.2111" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(0.668713 0.743521 0.748071 -0.664645 73.8881 5.72174)"/>
+                        <path d="M0 0 18.402 19.0453" stroke="#FC7C00" stroke-width="1.20781" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd" transform="matrix(1.00612 0 0 -1 69.2594 25.1942)"/>
+                        <path d="M47.1924 24.0464C47.1924 20.893 49.9256 18.3367 53.2974 18.3367 56.6691 18.3367 59.4023 20.893 59.4023 24.0464 59.4023 27.1998 56.6691 29.7561 53.2974 29.7561 49.9256 29.7561 47.1924 27.1998 47.1924 24.0464Z" stroke="#FC7C00" stroke-width="1.00651" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                        <path d="M47.0826 24.0245C47.0826 20.5558 49.8847 17.7438 53.3413 17.7438 56.7978 17.7438 59.5999 20.5558 59.5999 24.0245 59.5999 27.4931 56.7978 30.3051 53.3413 30.3051 49.8847 30.3051 47.0826 27.4931 47.0826 24.0245Z" stroke="#FC7C00" stroke-width="1.40911" stroke-linejoin="round" stroke-miterlimit="10" fill="#FC7C00" fill-rule="evenodd" transform="matrix(1.00612 0 0 1 20.0328 -3.25013)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

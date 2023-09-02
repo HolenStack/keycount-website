@@ -1,0 +1,68 @@
+@import "./../../styles/variables.scss";
+@import "./../../styles/colors.scss";
+
+.kc-bottom-menu-container {
+  position: fixed;
+  z-index: 10;
+  bottom: 3vh;
+  width: 100%;
+  left: 0;
+}
+
+.kc-bottom-menu {
+  position: relative;
+  right: auto;
+  text-align: center;
+}
+
+.kc-bottom-menu-popup {
+  display: none;
+  border-radius: calc(1rem / 16 * 20);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: calc(1vh + 1rem / 16 * 48);
+}
+
+.kc-bottom-menu-popup.open {
+  display: block;
+}
+
+.kc-bottom-menu-popup > ul > li.active {
+  @include on-primary-hover-state();
+}
+
+.kc-bottom-menu-popup > ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.kc-bottom-menu-popup > ul > li {
+  display: list-item;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: $typeface-weight-small;
+  line-height: 150%;
+  cursor: pointer;
+  text-align: center;
+}
+.kc-bottom-menu-popup > ul > li > a {
+  display: block;
+  width: 100%;
+  padding-top: calc(1rem / 16 * 12);
+  padding-bottom: calc(1rem / 16 * 12);
+}
+
+.kc-bottom-menu-popup > ul > li > a,
+.kc-bottom-menu-popup > ul > li > a:hover {
+  text-decoration: none;
+}
+
+.kc-bottom-menu-popup > ul > li:hover {
+  @include on-primary-hover-state();
+  border-radius: calc(1rem / 16 * 20);
+}

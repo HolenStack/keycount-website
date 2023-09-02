@@ -1,0 +1,14 @@
+@import "./../../styles/colors.scss";
+.kc-about-person-image {
+    background-color: $primary-100;
+    width: calc(1rem / 16 * 200);
+    border-radius: calc(1rem / 16 * 100);
+}
+.about-person-info{
+    a{
+        img{
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+        }
+    }
+}

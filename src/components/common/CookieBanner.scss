@@ -1,0 +1,20 @@
+@import './../../styles/colors.scss';
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: $primary-50;
+  color: $primary-0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+.cookie-banner a {
+  text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.kc-language-select {
+    padding-top: calc(1rem / 16 * 12);
+    padding-bottom: calc(1rem / 16 * 12);
+    border-radius: calc(1rem / 16 * 20);
+    padding-left: calc(1rem / 16 * 12);
+    padding-right: calc(1rem / 16 * 12);
+}
+
+.kc-language-select > select {
+    font-size: 1rem;
+    text-align: center;
+    appearance: none;
+    border: none;
+}

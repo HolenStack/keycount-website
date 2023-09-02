@@ -1,0 +1,330 @@
+$primary-0: #000000;
+$primary-10: #311300;
+$primary-20: #512400;
+$primary-30: #733500;
+$primary-40: #974800;
+$primary-50: #bd5c00;
+$primary-60: #e47000;
+$primary-70: #ff8d3a;
+$primary-80: #ffb689;
+$primary-90: #ffdbc7;
+$primary-95: #ffede4;
+$primary-99: #fffbff;
+$primary-100: #ffffff;
+
+$secondary-0: #000000;
+$secondary-10: #3f001b;
+$secondary-20: #65002f;
+$secondary-30: #8e0445;
+$secondary-40: #ae275c;
+$secondary-50: #cf4275;
+$secondary-60: #f05c8f;
+$secondary-70: #ff84a9;
+$secondary-80: #ffb1c5;
+$secondary-90: #ffd9e1;
+$secondary-95: #ffecef;
+$secondary-99: #fffbff;
+$secondary-100: #ffffff;
+
+$tertiary-0: #000000;
+$tertiary-10: #002020;
+$tertiary-20: #003737;
+$tertiary-30: #004f50;
+$tertiary-40: #006a6a;
+$tertiary-50: #008585;
+$tertiary-60: #00a1a2;
+$tertiary-70: #00bebf;
+$tertiary-80: #43dadb;
+$tertiary-90: #68f7f8;
+$tertiary-95: #adffff;
+$tertiary-99: #f1fffe;
+$tertiary-100: #ffffff;
+
+$neutral-0: #000000;
+$neutral-10: #001f24;
+$neutral-20: #00363d;
+$neutral-30: #004f58;
+$neutral-40: #006874;
+$neutral-50: #008391;
+$neutral-60: #00a0b0;
+$neutral-70: #22bccf;
+$neutral-80: #4fd8eb;
+$neutral-90: #97f0ff;
+$neutral-95: #d0f8ff;
+$neutral-99: #f6feff;
+$neutral-100: #ffffff;
+
+$neutral-variant-0: #000000;
+$neutral-variant-10: #241913;
+$neutral-variant-20: #3a2e26;
+$neutral-variant-30: #52443c;
+$neutral-variant-40: #6b5b53;
+$neutral-variant-50: #84746a;
+$neutral-variant-60: #9f8d83;
+$neutral-variant-70: #bba79d;
+$neutral-variant-80: #d7c3b8;
+$neutral-variant-90: #f4ded3;
+$neutral-variant-95: #ffede4;
+$neutral-variant-99: #fffbff;
+$neutral-variant-100: #ffffff;
+
+$shadow-key-umbra-opacity: 0.2;
+$shadow-key-penumbra-opacity: 0.14;
+$shadow-ambient-shadow-opacity: 0.12;
+
+$surface-1: rgba(151, 72, 0, 0.05);
+$surface-2: rgba(151, 72, 0, 0.08);
+$surface-3: rgba(151, 72, 0, 0.11);
+$surface-4: rgba(151, 72, 0, 0.12);
+$surface-5: rgba(151, 72, 0, 0.14);
+
+@mixin primary {
+    @media (prefers-color-scheme: dark) {
+        background-color: $primary-80;
+        color: $primary-20;
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: $primary-40;
+        color: $primary-100;
+    }
+}
+
+.primary {
+    @include primary();
+}
+
+@mixin primary-container {
+    @media (prefers-color-scheme: dark) {
+        background-color: $primary-30;
+        color: $primary-90;
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: $primary-90;
+        color: $primary-10;
+    }
+}
+
+.primary-container {
+    @include primary-container();
+}
+
+@mixin secondary {
+    @media (prefers-color-scheme: dark) {
+        background-color: $secondary-80;
+        color: $secondary-20;
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: $secondary-40;
+        color: $secondary-100;
+    }
+}
+
+.secondary {
+    @include secondary();
+}
+
+@mixin secondary-container {
+    @media (prefers-color-scheme: dark) {
+        background-color: $secondary-30;
+        color: $secondary-90;
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: $secondary-90;
+        color: $secondary-10;
+    }
+}
+
+.secondary-container {
+    @include secondary-container();
+}
+
+@mixin tertiary {
+    @media (prefers-color-scheme: dark) {
+        background-color: $tertiary-80;
+        color: $tertiary-20;
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: $tertiary-40;
+        color: $tertiary-100;
+    }
+}
+
+.tertiary {
+    @include tertiary();
+}
+
+@mixin tertiary-container {
+    @media (prefers-color-scheme: dark) {
+        background-color: $tertiary-30;
+        color: $tertiary-90;
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: $tertiary-90;
+        color: $tertiary-10;
+    }
+}
+
+.tertiary-container {
+    @include tertiary-container();
+}
+
+@mixin background {
+    @media (prefers-color-scheme: dark) {
+        background-color: $neutral-10;
+        color: $neutral-90;
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: $neutral-99;
+        color: $neutral-10;
+    }
+}
+
+.background {
+    @include background();
+}
+
+@mixin surface {
+    @media (prefers-color-scheme: dark) {
+        background-color: $neutral-10;
+        color: $neutral-80;
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: $neutral-99;
+        color: $neutral-10;
+    }
+}
+
+.surface {
+    @include surface();
+}
+
+@mixin surface-variant {
+    @media (prefers-color-scheme: dark) {
+        background-color: $neutral-variant-30;
+        color: $neutral-variant-80;
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: $neutral-variant-90;
+        color: $neutral-variant-30;
+    }
+}
+
+.surface-variant {
+    @include surface-variant();
+}
+
+@mixin on-primary-hover-state {
+    @media (prefers-color-scheme: dark) {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: rgba(0, 0, 0, 0.08);
+    }
+}
+
+@mixin on-secondary-hover-state {
+    @media (prefers-color-scheme: dark) {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: rgba(0, 0, 0, 0.08);
+    }
+}
+
+@mixin on-tertiary-hover-state {
+    @media (prefers-color-scheme: dark) {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: rgba(0, 0, 0, 0.08);
+    }
+}
+
+@mixin on-primary-focus-state {
+    @media (prefers-color-scheme: dark) {
+        background-color: rgba(255, 255, 255, 0.12);
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+}
+
+@mixin on-secondary-focus-state {
+    @media (prefers-color-scheme: dark) {
+        background-color: rgba(255, 255, 255, 0.12);
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+}
+
+@mixin on-tertiary-focus-state {
+    @media (prefers-color-scheme: dark) {
+        background-color: rgba(255, 255, 255, 0.12);
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+}
+
+@mixin outline {
+    @media (prefers-color-scheme: dark) {
+        border-color: $neutral-variant-60;
+    }
+    @media (prefers-color-scheme: light) {
+        border-color: $neutral-variant-50;
+    }
+    border-width: calc(1rem / 16 * 1);
+    border-style: solid;
+}
+
+.outline-primary {
+    @include outline();
+    @media (prefers-color-scheme: dark) {
+        color: $primary-20;
+    }
+    @media (prefers-color-scheme: light) {
+        color: $primary-100;
+    }
+}
+
+.outline-secondary {
+    @include outline();
+    @media (prefers-color-scheme: dark) {
+        color: $secondary-20;
+    }
+    @media (prefers-color-scheme: light) {
+        color: $secondary-100;
+    }
+}
+
+.outline-tertiary {
+    @include outline();
+    @media (prefers-color-scheme: dark) {
+        color: $tertiary-20;
+    }
+    @media (prefers-color-scheme: light) {
+        color: $tertiary-100;
+    }
+}
+
+@mixin elevated {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, $shadow-key-penumbra-opacity),
+        0 3px 1px -2px rgba(0, 0, 0, $shadow-key-umbra-opacity),
+        0 1px 5px 0 rgba(0, 0, 0, $shadow-ambient-shadow-opacity);
+}
+
+.elevated-primary {
+    @include elevated();
+    @include primary();
+}
+
+.elevated-secondary {
+    @include elevated();
+    @include secondary();
+}
+
+.elevated-tertiary {
+    @include elevated();
+    @include tertiary();
+}

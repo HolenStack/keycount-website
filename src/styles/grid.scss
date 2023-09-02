@@ -1,0 +1,49 @@
+@use "sass:math";
+@import "./variables.scss";
+
+.kc-grid {
+  box-sizing: border-box;
+}
+
+.kc-grid *,
+.kc-grid *::after,
+.kc-grid *::before {
+  box-sizing: inherit;
+}
+
+.kc-l-wrap {
+  max-width: calc(1rem / 16 * 1200);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row > div {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+/* Loop through the breakpoint sizes */
+@each $size, $width in $breakpoints {
+  $max-width: math.div(100%, 12);
+  $i: 1;
+  /* Loop to generate the classes and max-width values for each column size */
+  @while $i <= 12 {
+    .kc-col-#{$i},
+    .kc-col-#{$size}-#{$i} {
+      max-width: calc(#{$max-width} * #{$i});
+      width: calc(#{$max-width} * #{$i});
+    }
+    $i: $i + 1;
+  }
+  /* Generate the media queries for each breakpoint */
+  @media (min-width: #{$width}) {
+    $i: 1;
+    @while $i <= 12 {
+      .kc-col-#{$size}-#{$i} {
+        max-width: calc(#{$max-width} * #{$i}) !important;
+      }
+      $i: $i + 1;
+    }
+  }
+}

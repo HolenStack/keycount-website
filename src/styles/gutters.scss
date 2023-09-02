@@ -1,0 +1,69 @@
+@import "./variables.scss";
+
+@each $breakpoint, $value in $breakpoints {
+  @media (min-width: $value) {
+    .m-#{$breakpoint}-1 {
+      margin: 1rem !important;
+    }
+    .mt-#{$breakpoint}-1 {
+      margin-top: 1rem !important;
+    }
+    .mb-#{$breakpoint}-1 {
+      margin-bottom: 1rem !important;
+    }
+    .ms-#{$breakpoint}-1 {
+      margin-left: 1rem !important;
+    }
+    .me-#{$breakpoint}-1 {
+      margin-right: 1rem !important;
+    }
+  }
+}
+
+.m-1 {
+  margin: 1rem !important;
+}
+.mt-1 {
+  margin-top: 1rem !important;
+}
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+.ms-1 {
+  margin-left: 1rem !important;
+}
+.me-1 {
+  margin-right: 1rem !important;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.pb-3 {
+  padding-bottom: 3rem;
+}
+
+.pe-1 {
+  padding-right: 1rem;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}

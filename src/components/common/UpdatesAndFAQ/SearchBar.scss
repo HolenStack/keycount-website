@@ -1,0 +1,28 @@
+@import "./../../../styles/colors.scss";
+
+.search-container {
+    position: relative;
+}
+
+input[type="search"] {
+    border: none;
+    border-radius: 2rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+::-webkit-search-cancel-button {
+    @media (prefers-color-scheme: dark) {
+        background-color: $neutral-80;
+    }
+    @media (prefers-color-scheme: light) {
+        background-color: $neutral-10;
+    }
+    -webkit-appearance: none;
+    height: 2rem;
+    width: 2rem;
+    mask-image:url("./../../../assets/images/close_FILL0_wght400_GRAD0_opsz48.svg");
+    mask-size: 2rem;
+    background-size: 2rem 2rem;
+    cursor: pointer;
+}

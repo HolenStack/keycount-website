@@ -1,0 +1,91 @@
+@import './../../styles/colors.scss';
+
+.kc-social-media-bar {
+    align-items: stretch;
+    vertical-align: middle;
+    width: fit-content;
+}
+
+.kc-social-media-bar>a:hover {
+    @include on-primary-hover-state();
+}
+
+.kc-social-media-image {
+    height: auto;
+}
+
+.kc-social-media-bar-s {
+    border-radius: calc(1rem/16*18);
+    height: calc(1rem/16*42);
+}
+
+.kc-social-media-bar-s>a {
+    border-radius: calc(1rem/16*18);
+}
+
+.kc-social-media-image.kc-social-media-image-s {
+    width: calc(1rem/16*18);
+    padding: calc(1rem/16*12);
+}
+
+.kc-social-media-bar-m {
+    border-radius: calc(1.3rem/16*18);
+    height: calc(1.3rem/16*42);
+}
+
+.kc-social-media-bar-m>a {
+    border-radius: calc(1.3rem/16*18);
+}
+
+.kc-social-media-image.kc-social-media-image-m {
+    width: calc(1.3rem/16*18);
+    padding: calc(1.3rem/16*12);
+}
+
+.kc-social-media-bar-l {
+    border-radius: calc(1.6rem/16*18);
+    height: calc(1.6rem/16*42);
+}
+
+.kc-social-media-bar-l>a {
+    border-radius: calc(1.6rem/16*18);
+}
+
+.kc-social-media-image.kc-social-media-image-l {
+    width: calc(1.6rem/16*18);
+    padding: calc(1.6rem/16*12);
+}
+
+.kc-social-media-bar-xl {
+    height: calc(2rem/16*42);
+    border-radius: calc(2rem/16*18);
+}
+
+.kc-social-media-bar-xl>a {
+    border-radius: calc(2rem/16*18);
+}
+
+.kc-social-media-image.kc-social-media-image-xl {
+    width: calc(2rem/16*18);
+    padding: calc(2rem/16*12);
+}
+
+.linkedin-light {
+    -webkit-filter: grayscale(100%)brightness(300%) grayscale(100%);
+    filter: brightness(300%) grayscale(100%);
+}
+
+.linkedin-dark {
+    -webkit-filter: grayscale(100%) brightness(300%) invert(100%);
+    filter: grayscale(100%) brightness(300%) invert(100%);
+}
+
+.telegram-light {
+    -webkit-filter: grayscale(100%) contrast(200%);
+    filter: grayscale(100%) contrast(200%);
+}
+
+.telegram-dark {
+    -webkit-filter: grayscale(100%) brightness(70%) contrast(400%);
+    filter: grayscale(100%) brightness(70%) contrast(400%);
+}

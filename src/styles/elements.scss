@@ -1,0 +1,33 @@
+@use "sass:map";
+@import "./variables.scss";
+// Headings
+h1 {
+    line-height: 1.5;
+    font-size: 1.8rem !important;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+@media (min-width: map.get($breakpoints,"md")) {
+    h1 {
+        font-size: 2.5rem !important;
+    }
+}
+
+h3 {
+    text-align: center;
+}
+
+// Hyperlinks
+a {
+    color: inherit;
+}
+
+// Forms
+input[type="email"],
+input[type="text"] {
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 2rem;
+    border: none;
+}

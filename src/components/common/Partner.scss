@@ -1,0 +1,13 @@
+.kc-partner {
+    width: calc(1rem / 16 * 200);
+    height: calc(1rem / 16 * 200);
+    max-height: calc(1rem / 16 * 200);
+    max-width: calc(1rem / 16 * 200);
+}
+
+.kc-partner-image {
+    padding: 1rem;
+    max-height: 100%;
+    width: calc(1rem / 16 * 200);
+    max-width: calc(1rem / 16 * 200) !important;
+}
