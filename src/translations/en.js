@@ -258,38 +258,14 @@ const en = {
         },
         {
             id: 2,
-            title: "Terms & Conditions",
-            icon: "gavel",
-            subtitle: "Read our detailed terms and conditions",
-            component: 'TermsAndConditions',
-            route: '/terms-and-conditions'
+            title: "Podcast: Arman (CEO) bei Grou Online",
+            icon: "headset_mic",
+            subtitle: "Podcast: Arman (CEO) bei Grou Online",
+            component: 'PodcastArman',
+            route: '/podcast-arman',
         },
         {
             id: 3,
-            title: "Privacy Policy",
-            icon: "privacy_tip",
-            subtitle: "We value your privacy. Get all the details",
-            component: 'PrivacyPolicy',
-            route: '/privacy-policy',
-        },
-        {
-            id: 6,
-            title: "Summer-Internship IT",
-            icon: "sensor_occupied",
-            subtitle: "Open position: Summer-Internship IT Development in Fintech-Startup",
-            component: 'InternshipIt',
-            route: '/internship-it',
-        },
-        {
-            id: 7,
-            title: "Trainee (Online-)Marketing",
-            icon: "add_reaction",
-            subtitle: "Open position: Trainee (Online-)Marketing",
-            component: 'InternshipMarketing',
-            route: '/internship-marketing',
-        },
-        {
-            id: 8,
             title: "keycount NFT-Drop",
             icon: "photo_camera_back",
             subtitle: "Community News: keycount NFT-Drop – We want you to be a part of keycount!",
@@ -297,7 +273,7 @@ const en = {
             route: '/nft-drop',
         },
         {
-            id: 9,
+            id: 4,
             title: "Partnership: keycount and Genify",
             icon: "escalator_warning",
             subtitle: "Partnership: keycount and Genify",
@@ -305,7 +281,7 @@ const en = {
             route: '/partnership-genify',
         },
         {
-            id: 10,
+            id: 5,
             title: "Partnership: keycount and Vezgo",
             icon: "blind",
             subtitle: "Partnership: keycount and Vezgo",
@@ -313,22 +289,22 @@ const en = {
             route: '/partnership-vezgo',
         },
         {
-            id: 11,
-            title: "Podcast: Arman (CEO) bei Grou Online",
-            icon: "headset_mic",
-            subtitle: "Podcast: Arman (CEO) bei Grou Online",
-            component: 'PodcastArman',
-            route: '/podcast-arman',
-        }
+            id: 6,
+            title: "Terms & Conditions",
+            icon: "gavel",
+            subtitle: "Read our detailed terms and conditions",
+            component: 'TermsAndConditions',
+            route: '/terms-and-conditions'
+        },
+        {
+            id: 7,
+            title: "Privacy Policy",
+            icon: "privacy_tip",
+            subtitle: "We value your privacy. Get all the details",
+            component: 'PrivacyPolicy',
+            route: '/privacy-policy',
+        },
     ],
-    internshipIt: {
-        title: "Summer-Internship IT",
-        contentFile: "/blog_posts/it-internship-en.html"
-    },
-    internshipMarketing: {
-        title: "Open position: Trainee (Online-)Marketing",
-        contentFile: "/blog_posts/marketing-internship-en.html"
-    },
     nftDrop: {
         title: "keycount NFT-Drop",
         contentFile: "/blog_posts/nft-drop-en.html"
