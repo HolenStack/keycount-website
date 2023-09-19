@@ -38,7 +38,7 @@ const en = {
             },
             {
                 id: 3,
-                text: "or any inquiries, feel free to drop us an email at {emailLink}",
+                text: "If you have any questions we are just an email away: {emailLink}.",
             }
         ],
         buttonText: "Explore keycount"
